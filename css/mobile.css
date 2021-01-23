@@ -1,0 +1,12 @@
+#main-nav .sociel{
+    display: none;
+}
+#main-nav .container{
+    grid-template-columns: 1fr;
+    grid-gap:20px;
+}
+
+#main-nav ul,
+#main-nav .logo{
+    justify-self: center;
+}
