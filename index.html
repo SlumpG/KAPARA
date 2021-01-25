@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- <script>
+    <script>
         window.onload = function() {
           var context = new AudioContext();
         }
-        </script> -->
+        </script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 780px)" href="css/mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <iframe src="audio\1-second-of-silence.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
+   <!-- <iframe src="audio\1-second-of-silence.mp3" allow="autoplay"  frameborder="0"></iframe> -->
     <audio autoplay loop id="playAudio"  >
     <source src="audio/רביד פלוטניק - כפרה שליRavid Plotnik - Kapara Sheli.mp3" type="audio/mp3">
     </audio>
@@ -64,12 +64,18 @@
             <div class="bigpapa">
                 <h3>KAPARA PICKS OF THE WEEK</h3>
                 <div class="papatainer">
-                    <div class="card">
+                    <div class="card minigrid">
+                       
+                    <div class="goaway">
                         <h6>SCIENCE</h6>
-                        <img src="imgs/mathAF.jpeg" alt="">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fac Lorem ipsum dolor sit.ere
                             corrupti
                             sit tenetur!</p>
+                        </div>
+                         <div class="diffcolor">
+                        
+                        <img src="imgs/mathAF.jpeg" alt="">
+                    </div>
                     </div>
                     <div class="card">
                         <h6>MEDICINE</h6>
@@ -124,15 +130,15 @@
                         <h6>KAMA KAPARA</h6>
                         <img src="imgs/kapara.jpeg" alt="">
                     </div>
-                    <div class="card">
+                    <div class="card minigrid">
+                        <div  class="diffcolor">
                         <h6>TECHNOLOGY</h6>
                         <img src="imgs/pieces tech.jpeg" alt="">
+                    </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere corrupti Lorem ipsum dolor
                             sit.
                             sit tenetur!</p>
                     </div>
-
-
                 </div>
             </div>
         </section>
